@@ -1,0 +1,22 @@
+# Python
+backend/.venv
+__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules
+frontend/dist
+
+# Env files
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store
+
+# Storage outputs (keep placeholders)
+storage/uploads/*
+storage/outputs/*
+!storage/uploads/.gitkeep
+!storage/outputs/.gitkeep
