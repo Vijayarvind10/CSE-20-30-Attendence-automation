@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     allowed_origins: List[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://vijayarvind10.github.io",
     ]
 
     def ensure_directories(self) -> None:

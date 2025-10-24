@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: attendance-automator-api
+    env: docker
+    rootDir: backend
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: ALLOWED_ORIGINS
+        value: '["http://localhost:5173","https://vijayarvind10.github.io"]'
